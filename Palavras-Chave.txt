@@ -1,0 +1,109 @@
+GIT GITHUB
+-Versionamento de codigo
+
+Benefícios
+controle de versao
+armazenamento em nuvem
+trabalho em equipe
+melhorar seu codigo
+reconhecimento
+
+GUI (GRAFICO) X CLI (COMAND LINE - TERMINAL)
+
+COMANDOS
+
+INICAR O GIT
+-git init
+
+LISTAR
+-dir + enter
+
+Navegar nas pastas
+-cd /
+-cd + nome da pasta
+
+Voltar na pasta anterior
+-cd ..
+
+Limpar terminal
+-cls     
+
+Criar pasta
+-mkdir + nomeDaPasta
+
+Criar arquivo
+-echo + nomeDoArquivo
+-echo + nomeDoArquivo > nomeDoArquivo.txt
+
+Deletar arquivo
+-del + nome da pasta (delete somente os arquivos)
+
+Deletar diretorio
+-rmdir + nomedaPASTA /S /Q
+
+
+Mover Arquivos para Commit
+-git add .
+
+COMMIT
+-git commit -m "descrição do projeto"
+
+Enviar para repositório remoto
+-git push
+
+
+FUNCIONAMENTO 
+-SHA1 - ALGORITMO QUE ENCRIPTA OS ARQUIVOS
+-GERA CONJUNTO DE CARACTERES DE 40 DIGITOS
+-AO FAZER ALTERAÇÕES NO ARQUIVOS O SHA1 TBM ALTERA
+
+TIPOS BASICOS DE OBJETOS DO GIT 
+-BLOBS
+-CONTEM METADADOS -  O TIPO TAMANHO \0 E CONTEUDO DO -ARQUIVO
+
+TREES 
+-MONTA A ESTRUTURA ONDE ESTAO OS ARQUIVOS - RECURSIVO
+-ARMAZEM METADADOS OS BLOBS E COMMITS
+-APONTA PARA O BLOB
+	
+
+COMMITS
+-POSSUE SHA1 
+-TEM TIMESTAMP DATA E HORA DE CRIAÇÃO
+-APONTA PARA A ARVORE 
+-TEM AUTOR E MENSAGEM
+
+CHAVES SSH 
+-É UMA FORMA DE ESTABELER UMA CONEXAO SEGURA E ENCRIPTADA.
+
+
+flag -a mostra arquivos ocultos
+
+ARQUIVO MARKDOWN
+FORMA MAIS HUMANA DE SE ESCREVER ARQUIVO HTML
+
+UNTRACKED
+CICLO
+-UNMODIFIED ARQUIVOS NÃO MODIFICADOS
+
+-MODIFIED ARQ MODIFICADOS
+
+-STAGED -ARQUIVOS ESTAO SENDO PREPARADOS PARA SEREM COMMITADOS
+
+INFORMAÇÕES DOS ARQUIVOS
+GIT STATUS
+
+MOVER ARQUIVOS
+MV NOMEDOARQUIVO ./NOMEDODIRETORIO
+
+TRANSFERE TODOS OS ARQUIVOS PARA AREA DE STAGED
+GIT ADD * 
+
+CONFLITO DE MERGE
+EDIÇÕES NA MESMA LINHA DO ARQUIVO LOCAL E EM NUVEM
+
+GIT PULL - PUXAR ARQUIVOS DO REPOSITORIO EM NUVEM
+
+
+GIT REMOTE -V 
+DIZ PRA ONDE O ARQUIVO ESTA APONTANDO (REPOSITORIO REMOTO.
